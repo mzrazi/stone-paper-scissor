@@ -12,11 +12,11 @@ function App() {
   const [round, setround] = useState(1);
   const [winner, setwinner] = useState(null);
   const [gameOver, setgameOver] = useState(false);
-  const choices = ["🪨", "📄", "✂️"];
+  const choices = ["✊", "✋", "✌️"];
   const pairs = {
-    "🪨": "✂️",
-    "📄": "🪨",
-    "✂️": "📄",
+    "✊": "✌️",
+    "✋": "✊",
+    "✌️": "✋",
   };
   const handlePlayerChoice = (choice) => {
     const random = Math.floor(Math.random() * 3);

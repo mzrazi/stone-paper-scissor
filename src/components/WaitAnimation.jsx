@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 function WaitingAnimation() {
-  const icons = ["🪨", "📄", "✂️"];
+  const icons = ["✊", "✋", "✌️"];
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
