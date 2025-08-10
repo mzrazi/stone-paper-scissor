@@ -81,7 +81,7 @@ function App() {
         <div>
           {choices.map((choice) => (
             <button
-              className=" rounded-2xl bg-black w-40 h-10 mx-10 text-2xl text-amber-50"
+              className=" rounded-2xl bg-black w-40 h-10 mx-10 text-2xl text-amber-50 hover:scale-110 hover:bg-blue-500 transition-all duration-300"
               onClick={() => {
                 handlePlayerChoice(choice);
               }}
